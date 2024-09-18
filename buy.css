@@ -11,7 +11,7 @@
     align-items:center;
   }
   form{
-    border:2px solid #D09B52;
+    border:2px solid #000000;
     padding:40px 10px 0px 40px;
     width:70%;
     max-width:700px;
@@ -19,7 +19,7 @@
   }
   #focus{
     border:3px solid #fef6fb;
-    box-shadow:0 0 10px 0 #D09B52;
+    box-shadow:0 0 10px 0 #000000;
     position:absolute;
     transition:
       width .2s ease, 
@@ -60,9 +60,9 @@
       }
     }
     &[type=submit]{
-      background:#D09B52;
-      color:#EAE4DA;
-      border:2px solid #D09B52;
+      background:#ffffff;
+      color:#000000;
+      border:2px solid #000000;
       outline:10px solid #fff;
       width:calc(50% - 30px);
       height:40px;
