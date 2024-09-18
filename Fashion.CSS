@@ -61,6 +61,10 @@ body{
     transform: scale(1.05);
 }
 
+.nav-icons p{
+    font-size: 10px;
+}
+
 .sidebar{
     grid-area: sidebar;
     background-color: rgb(255, 255, 255);
