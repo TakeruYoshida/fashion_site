@@ -324,7 +324,7 @@ nav{
 }
 
 .grandparents h3{
-    font-size: 20px;
+    font-size: 40px;
     padding-top: 20px;
 }
 
@@ -478,6 +478,54 @@ transparent;
   }
 }
 
+.grandmother {
+  width: 100%;/*containerで高さのサイズが自動的に指定されるため高さの入力は不要*/
+  display: flex;
+  flex-direction: column;
+  row-gap: 0px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+
+.grandmother h2{
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.mother {
+  width: 90%;
+  height: 500px;
+  padding: 30px 30px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.son {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son:hover{
+  transform: scale(1.02);
+}
+
+.son img {
+  width: 150px;
+  padding-top: 8px;
+}
 
 .end {
     width: 100%;
