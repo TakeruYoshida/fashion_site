@@ -497,13 +497,19 @@ transparent;
 
 .mother {
   width: 90%;
-  height: 210px;
+  height: 145px;
   padding: 30px 30px;
   margin-top: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.mother h2{
+  font-size: 25px;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
 }
 
 /*.son {
@@ -524,10 +530,10 @@ transparent;
 .son1{
   background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -537,13 +543,14 @@ transparent;
   transform: scale(1.02);
 }
 
+
 .son2{
   background-image: linear-gradient(90deg, rgba(255, 0, 165, 1), rgba(191, 233, 255, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -556,10 +563,10 @@ transparent;
 .son3{
   background-image: linear-gradient(90deg, rgba(144, 245, 154, 1), rgba(4, 202, 255, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -570,12 +577,12 @@ transparent;
 }
 
 .son4{
-  background-image: linear-gradient(90deg, rgba(253, 219, 146, 1), rgba(209, 253, 254, 1));
+  background-image: linear-gradient(90deg, rgba(89, 248, 57, 1), rgba(97, 94, 48, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -588,10 +595,10 @@ transparent;
 .son5{
   background-image: linear-gradient(90deg, rgba(0, 255, 243, 1), rgba(252, 146, 146, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -604,10 +611,10 @@ transparent;
 .son6{
   background-image: linear-gradient(90deg, rgba(219, 87, 205, 1), rgba(47, 237, 167, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -620,10 +627,10 @@ transparent;
 .son7{
   background-image: linear-gradient(90deg, rgba(57, 210, 248, 1), rgba(48, 97, 96, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -636,10 +643,10 @@ transparent;
 .son8{
   background-image: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
@@ -652,10 +659,10 @@ transparent;
 .son9{
   background-image: linear-gradient(90deg, rgba(248, 15, 15, 1), rgba(207, 63, 245, 1));
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   width: 250px;
-  height: 170px;
+  height: 110px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
