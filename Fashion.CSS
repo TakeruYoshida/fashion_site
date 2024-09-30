@@ -497,7 +497,7 @@ transparent;
 
 .mother {
   width: 90%;
-  height: 500px;
+  height: 210px;
   padding: 30px 30px;
   margin-top: 30px;
   display: flex;
@@ -506,19 +506,162 @@ transparent;
   flex-wrap: wrap;
 }
 
-.son {
+/*.son {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
-  height: 400px;
-  background-color: white;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}*/
+
+/*.son:hover{
+  transform: scale(1.02);
+}*/
+
+.son1{
+  background-image: linear-gradient(90deg, rgba(65, 164, 253, 1), rgba(14, 244, 255, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
   border-radius: 10px 10px;
   box-shadow: 3px 3px 5px;
   transition-duration: .3s;
 }
 
-.son:hover{
+.son1:hover{
+  transform: scale(1.02);
+}
+
+.son2{
+  background-image: linear-gradient(90deg, rgba(255, 0, 165, 1), rgba(191, 233, 255, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son2:hover{
+  transform: scale(1.02);
+}
+
+.son3{
+  background-image: linear-gradient(90deg, rgba(144, 245, 154, 1), rgba(4, 202, 255, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son3:hover{
+  transform: scale(1.02);
+}
+
+.son4{
+  background-image: linear-gradient(90deg, rgba(253, 219, 146, 1), rgba(209, 253, 254, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son4:hover{
+  transform: scale(1.02);
+}
+
+.son5{
+  background-image: linear-gradient(90deg, rgba(0, 255, 243, 1), rgba(252, 146, 146, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son5:hover{
+  transform: scale(1.02);
+}
+
+.son6{
+  background-image: linear-gradient(90deg, rgba(219, 87, 205, 1), rgba(47, 237, 167, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son6:hover{
+  transform: scale(1.02);
+}
+
+.son7{
+  background-image: linear-gradient(90deg, rgba(57, 210, 248, 1), rgba(48, 97, 96, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son7:hover{
+  transform: scale(1.02);
+}
+
+.son8{
+  background-image: linear-gradient(90deg, rgba(247, 93, 139, 1), rgba(254, 220, 64, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son8:hover{
+  transform: scale(1.02);
+}
+
+.son9{
+  background-image: linear-gradient(90deg, rgba(248, 15, 15, 1), rgba(207, 63, 245, 1));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  height: 170px;
+  border-radius: 10px 10px;
+  box-shadow: 3px 3px 5px;
+  transition-duration: .3s;
+}
+
+.son9:hover{
   transform: scale(1.02);
 }
 
