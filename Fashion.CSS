@@ -4,6 +4,54 @@
     box-sizing: border-box; /*これはデフォ(CSSの最初に絶対かく)*/
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: auto;
+}
+
+.hamburger span {
+  height: 3px;
+  width: 100%;
+  background-color: #333;
+  border-radius: 2px;
+}
+
+/* メディアクエリでモバイル対応 */
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+
+  .pc-nav {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  .pc-nav.active {
+    display: flex;
+  }
+
+  .pc-nav ul {
+    flex-direction: column;
+  }
+
+  .pc-nav li {
+    margin: 10px 0;
+  }
+}
+
+
 body{
     background-color: rgb(255, 255, 255);
     width: 100%;
@@ -543,6 +591,10 @@ transparent;
   transform: scale(1.02);
 }
 
+.son1 > image {
+  width: 10px;
+  height: 12px;
+}
 
 .son2{
   background-image: linear-gradient(90deg, rgba(255, 0, 165, 1), rgba(191, 233, 255, 1));
@@ -672,10 +724,6 @@ transparent;
   transform: scale(1.02);
 }
 
-.son img {
-  width: 150px;
-  padding-top: 8px;
-}
 
 .end {
     width: 100%;

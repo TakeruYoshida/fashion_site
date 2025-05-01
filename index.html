@@ -4,6 +4,7 @@
 <head>
     <title>Fashion</title>
     <link rel="stylesheet" href="Fashion.CSS">
+    <script type="text/javascript" src="app.js"></script>
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,7 +19,30 @@
 
 <body>
 
-     <header>
+    <div class="wrap-input-17">
+        <div class="search-box">
+            <button class="btn-search"><i class="bx bx-search"></i></button>
+            <input type="text" class="input-search" placeholder="Search..." id="searchBox">
+        </div>
+    </div>
+
+     <header>  
+
+        <!-- header -->
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+        
+        <div class="wrap-input-17">
+            <div class="search-box">
+                <button class="btn-search"><i class="bx bx-search"></i></button>
+                <input type="text" class="input-search" placeholder="Search..." id="searchBox">
+            </div>
+        </div>
+
         <h1><a href="">SCOTT</a>
         </h1>
         <nav class="pc-nav">
@@ -32,6 +56,10 @@
                 <li><a href="#">CONTACT</a></li>
                
                 <li><a href="./buy.html">LOGIN</a></li>
+                 <div id="cart">
+                    <h2>カート</h2>
+                    <ul id="cart-items"></ul>
+                 </div>
             </ul>
         </nav>
      </header>
@@ -91,6 +119,9 @@
                 <p>メンズXL</p>
                 <h4>メタリカTシャツ</h4>
                 <p>￥4,500<span>(税抜)</span></p>
+                 <div class="product" data-id="123">
+                    <button class="favorite-btn">♡</button>
+                 </div>
 
              <a href="./buy.html">
                 <button class="btn-31">
